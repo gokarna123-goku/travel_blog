@@ -681,6 +681,7 @@ li{
     padding: 60px 100px;
     display: flex;
     align-items: center;
+    flex-direction: column;
 }
 .footer_box{
     width: 100%;
@@ -688,6 +689,7 @@ li{
     display: flex;
     align-items: flex-start;
     gap: 1.5rem;
+    margin-bottom: 1.7rem;
 }
 .about_company{
     width: 35%;
@@ -748,7 +750,6 @@ li{
     width: 20%;
     height: auto;
 }
-
 .social_links{
     width: 100%;
     height: auto;
@@ -775,6 +776,24 @@ li{
     transition: 0.3s ease-out;
 }
 
+.copy_right_section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    row-gap: 0.2rem;
+    flex-direction: column;
+}
+.copy_right_section .footer_divider{
+    width: 100%;
+    height: 1px;
+    background: rgba(0, 0, 0, 0.25) !important;
+    margin: 15px auto;
+}
+.copy_section{
+    font-size: 1.0rem;
+    color: rgba(65, 65, 65, 0.9);
+}
 
 
 
