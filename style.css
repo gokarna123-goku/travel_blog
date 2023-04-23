@@ -578,6 +578,47 @@ li{
     transform: translateX(5px);
 }
 
+/* Contact Us Section Styling */
+.contact_section{
+    position: relative;
+    width: 100%;
+    height: auto;
+    background: rgba(0, 0, 0, 0.07);
+    padding: 60px 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.contact_box_section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.map_section{
+    width: 54%;
+    height: auto;
+    border-radius: 4px !important;
+}
+.form_section{
+    position: absolute;
+    width: 49%;
+    height: auto;
+    border-radius: 4px;
+    right: 100px;
+    background: var(--fourth);
+    display: flex;
+    align-items: flex-start;
+    justify-content: start;
+    flex-direction: column;
+    row-gap: 1.1rem;
+    padding: 30px 30px 30px 160px;
+    box-shadow: 5px 5px 10px rgba(68, 27, 5, 0.12);
+    border: 1px solid rgb(143, 143, 143);
+}
+
+
 
 
 
