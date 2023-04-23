@@ -288,6 +288,11 @@ li{
     justify-content: center;
     flex-direction: column;
 }
+.desc{
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: var(--primary);
+}
 
 
 /* End */
