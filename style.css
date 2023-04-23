@@ -534,7 +534,7 @@ li{
     object-position: center;
 }
 .blog_data{
-    padding: 15px;
+    padding: 15px 20px;
 }
 .date{
     font-size: 0.80rem;
@@ -718,6 +718,44 @@ li{
     margin-bottom: 1.0rem;
 }
 
+.category{
+    width: 20%;
+    height: auto;
+}
+.link_box{
+    margin-bottom: 0.7rem;
+}
+.link_box .footer_link{
+    color: var(--fourth);
+    font-size: 1.0rem;
+    transition: all 0.4s ease-out;
+}
+.link_box:hover .footer_link i{
+    transition: all 0.4s ease-out;
+}
+.link_box:hover .footer_link,
+.link_box:hover .footer_link i{
+    transform: translateX(5px);
+    color: var(--secondary);
+}
+
+.destination{
+    width: 20%;
+    height: auto;
+}
+
+.follow{
+    width: 20%;
+    height: auto;
+}
+
+.social_links{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+}
 
 
 
