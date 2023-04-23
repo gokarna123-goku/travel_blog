@@ -497,7 +497,12 @@ li{
     height: auto;
     border: 1px solid rgba(65, 65, 65, 0.3);
     border-radius: 4px;
+    box-shadow: 0px 0px 20px rgba(68, 27, 5, 0.3);
     overflow: hidden;
+    transition: 0.3s ease-out;
+}
+.blog_box:hover{
+    box-shadow: 3px 4px 15px rgba(68, 27, 5, 0.42);
 }
 .blog_img{
     width: 100%;
@@ -528,6 +533,26 @@ li{
     color: var(--fourth);
     margin-bottom: 1.4rem;
     line-height: 1.13rem;
+}
+.read_btn{
+    width: auto;
+    height: 40px;
+    border: none;
+    outline: none;
+    color: var(--secondary);
+    background: transparent;
+    font-size: 1.0rem;
+    font-weight: 600;
+    letter-spacing: 0.099rem;
+    cursor: pointer;
+    transition: transform 0.3s ease-out;
+}
+.read_btn i{
+    color: var(--secondary);
+    transition: transform 0.3s ease-out;
+}
+.read_btn:hover i{
+    transform: translateX(5px);
 }
 
 
