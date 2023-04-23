@@ -756,6 +756,24 @@ li{
     align-items: center;
     gap: 1.2rem;
 }
+.social_link{
+    width: 30px;
+    height: 30px;
+    border-radius: 4px;
+    background: var(--fourth);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.4s ease-out;
+}
+.social_link:hover{
+    background: var(--secondary);
+}
+.social_link .link{
+    font-size: 1.2rem;
+    color: var(--primary);
+    transition: 0.3s ease-out;
+}
 
 
 
