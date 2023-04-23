@@ -674,7 +674,49 @@ li{
 }
 
 /* Footer Section Styling */
-
+.footer_section{
+    width: 100%;
+    height: auto;
+    background: var(--primary);
+    padding: 60px 100px;
+    display: flex;
+    align-items: center;
+}
+.footer_box{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: flex-start;
+    gap: 1.5rem;
+}
+.about_company{
+    width: 35%;
+}
+.company_desc{
+    font-size: 0.999rem;
+    color: var(--fourth);
+    line-height: 1.5rem;
+}
+.footer_box .logo_link{
+    font-size: 2.2rem;
+    font-weight: bold;
+    letter-spacing: 0.01rem;
+    color: var(--tertiary);
+    display: inline-block;
+    margin-bottom: 1.0rem;
+}
+.footer_box .logo_link i{
+    font-size: 1.8rem !important;
+    color: var(--secondary);
+    margin-left: -0.38rem;
+}
+.footer_title{
+    font-size: 1.3rem;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    color: var(--tertiary);
+    margin-bottom: 1.0rem;
+}
 
 
 
