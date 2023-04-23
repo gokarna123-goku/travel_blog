@@ -613,7 +613,7 @@ li{
     justify-content: start;
     flex-direction: column;
     row-gap: 1.1rem;
-    padding: 30px 30px 30px 100px;
+    padding: 35px 30px 35px 100px;
     box-shadow: 5px 5px 10px rgba(68, 27, 5, 0.12);
     border: 1px solid rgb(143, 143, 143);
 }
@@ -628,7 +628,7 @@ li{
     align-items: center;
     justify-content: center;
     column-gap: 1.3rem;
-    margin-bottom: 1.2rem;
+    margin-bottom: 1.5rem;
 }
 .input_box{
     width: 50%;
@@ -657,7 +657,7 @@ li{
     display: flex;
     align-items: flex-start;
     flex-direction: column;
-    margin-bottom: 1.3rem;
+    margin-bottom: 2rem;
 }
 .form_section textarea{
     width: 100%;
