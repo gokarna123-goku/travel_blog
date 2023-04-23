@@ -211,6 +211,7 @@ li{
     color: var(--tertiary);
     line-height: 7rem;
     margin-bottom: 1rem;
+    animation: slideLeftToRight 4s ease-out 1;
 }
 .text_section span{
     font-size: 5.5rem;
@@ -221,6 +222,27 @@ li{
     display: flex;
     align-items: center;
     column-gap: 1.7rem;
+    animation: slideRightToLeft 4s ease-out 1;
+}
+
+/* ================== Hero Section Animation ================== */
+/* Left to Right */
+@keyframes slideLeftToRight {
+    from {
+        transform: translateY(-100%);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+/* Left to Right */
+@keyframes slideRightToLeft {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(0);
+    }
 }
 
 /* About Us Section */
