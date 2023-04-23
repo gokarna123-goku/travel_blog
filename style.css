@@ -603,7 +603,7 @@ li{
 }
 .form_section{
     position: absolute;
-    width: 49%;
+    width: 46%;
     height: auto;
     border-radius: 4px;
     right: 100px;
@@ -616,6 +616,39 @@ li{
     padding: 30px 30px 30px 160px;
     box-shadow: 5px 5px 10px rgba(68, 27, 5, 0.12);
     border: 1px solid rgb(143, 143, 143);
+}
+.form_section form{
+    width: 100%;
+    height: auto;
+}
+.input_group{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.3rem;
+    margin-bottom: 1.2rem;
+}
+.form_section .label{
+    font-size: 1.13rem;
+    font-weight: 600;
+    color: var(--primary);
+}
+.form_section input{
+    width: 100%;
+    height: 35px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 1.0rem;
+    font-weight: 500;
+}
+.form_section textarea{
+    width: 100%;
+    height: 35px;
 }
 
 
