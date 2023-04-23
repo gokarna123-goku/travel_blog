@@ -343,4 +343,41 @@ li{
 }
 
 
+/* Explore Together Section Styling */
+.join_section{
+    width: 100%;
+    height: 37vh;
+    padding: 10px 100px;
+    background: var(--linear-background), url("./img/bg2.jpg") no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    row-gap: 1.2rem;
+    flex-direction: column;
+}
+.join_title{
+    font-size: 2.3rem;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    color: var(--fourth);
+    text-align: center;
+    margin-bottom: 1.0rem;
+}
+
+
+/* Popular Destination Section Styling */
+.popular_destination{
+    width: 100%;
+    height: auto;
+    padding: 100px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    row-gap: 1.2rem;
+    flex-direction: column;
+}
+
+
 /* End */
