@@ -198,6 +198,7 @@ li{
     font-size: 1.5rem;
     color: var(--tertiary);
     float: right;
+    line-height: 3.5rem;
 }
 
 
@@ -849,6 +850,9 @@ li{
 }
 /* Only Min-width 768 and Max-width 975 */
 @media screen and (max-width: 975px ) and (min-width: 768px) {
+    .nav_section ul {
+        display: none;
+    }
     .image_section {
         width: 56%;
     }
