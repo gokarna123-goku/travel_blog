@@ -54,6 +54,11 @@ li{
     letter-spacing: 0.1rem;
     cursor: pointer;
 }
+.btn:active:focus,
+.btn:focus,
+.btn:active{
+    outline: none;
+}
 .bg_btn{
     width: 200px;
     background: var(--secondary);
