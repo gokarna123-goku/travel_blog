@@ -366,9 +366,6 @@ li{
     object-position: center;
     transition: transform 0.34s ease-out;
 }
-/* .cat_img:hover{
-    transform: translateX(10px);
-} */
 .cat_title{
     font-size: 1.5rem;
     font-weight: 600;
