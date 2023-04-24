@@ -806,7 +806,7 @@ li{
 
 /* Media Query Section */
 /* Only Min-width 975 and Max-width 1024 */
-@media screen and (max-width: 1024px ) and (min-width: 975px) {
+@media (max-width: 1024px ) and (min-width: 975px) {
     .image_section {
         width: 56%;
     }
@@ -850,7 +850,7 @@ li{
     }
 }
 /* Only Min-width 768 and Max-width 975 */
-@media screen and (max-width: 975px ) and (min-width: 768px) {
+@media (max-width: 975px ) and (min-width: 768px) {
     .nav_section ul{
         position: fixed;
         width: 300px;
@@ -883,46 +883,352 @@ li{
     .nav_section ul.showNavbar{
         right: 0;
     }
+    .text_section {
+        font-size: 4rem;
+        line-height: 5.5rem;
+    }
+    .text_section span {
+        font-size: 5.2rem;
+    }
     .image_section {
-        width: 56%;
+        width: 70%;
+    }
+    .about_img {
+        height: 60vh;
     }
     .content_section {
-        width: 53%;
+        width: 60%;
         padding: 30px 30px 30px 50px;
     }
     .about_title {
-        font-size: 1.7rem;
+        font-size: 1.4rem;
+    }
+    .about_desc {
+        font-size: 0.890rem;
+        line-height: 1.1rem;
+        margin-bottom: 1.0rem;
+    }
+    .about_btn {
+        margin-bottom: 0.2rem;
+    }
+    .category_box_section {
+        gap: 1.5rem;
     }
     .category_box {
-        width: 357px;
+        width: 272px;
+    }
+    .cat_img {
+        height: 35vh;
     }
     .destination_box {
-        width: 359px;
+        width: 100%;
+    }
+    .blog_section_box {
+        gap: 1.5rem;
     }
     .blog_box {
-        width: 358px;
+        width: 272px;
+    }
+    .blog_desc {
+        font-size: 0.75rem;
+        color: var(--fourth);
+        margin-bottom: 0.7rem;
+        line-height: 1.0rem;
     }
     .map_section {
-        width: 56%;
+        width: 70%;
     }
     .form_section {
-        width: 53%;
+        width: 60%;
         padding: 30px 30px 30px 50px;
     }
     .footer_box {
         flex-wrap: wrap;
     }
     .about_company {
-        width: 45%;
+        width: 60%;
     }
     .category {
-        width: 23%;
+        width: 35%;
     }
     .destination {
-        width: 25%;
+        width: 40%;
     }
     .follow {
+        width: 55%;
+    }
+}
+
+/* Only Min-width 550 and Max-width 768 */
+@media (max-width: 768px ) and (min-width: 550px) {
+    .nav_section ul{
+        position: fixed;
+        width: 300px;
+        height: 100vh;
+        background: rgba(31, 31, 31, 0.99);
+        backdrop-filter: blur(7.5px);
+        -webkit-backdrop-filter: blur(7.5px);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        top: 75px;
+        right: -100%;
+        text-align: center;
+        transition: all 0.68s ease-out;
+        z-index: 9999;
+    }
+    .nav_section li{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #toggleIcon{
+        display: block;
+    }
+    .nav_section a{
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+    .nav_section ul.showNavbar{
+        right: 0;
+    }
+    .text_section {
+        font-size: 3rem;
+        line-height: 4.5rem;
+    }
+    .text_section span {
+        font-size: 4.2rem;
+    }
+    .about_section {
+        padding: 100px 30px;
+    }
+    .image_section {
+        width: 70%;
+    }
+    .content_section {
+        width: 80%;
+        padding: 30px 30px 30px 50px;
+        right: 30px;
+    }
+    .about_desc {
+        font-size: 0.890rem;
+        line-height: 1.1rem;
+        margin-bottom: 1.0rem;
+    }
+    .about_btn {
+        margin-bottom: 0.2rem;
+    }
+    .travel_categories_section {
+        padding: 100px 30px;
+    }
+    .category_box_section {
+        row-gap: 1.5rem;
+        column-gap: 0;
+    }
+    .category_box {
+        width: 470px;
+    }
+    .cat_img {
+        height: 40vh;
+    }
+    .join_title {
+        font-size: 1.7rem;
+        font-weight: 600;
+        margin-bottom: 1.0rem;
+    }
+    .popular_destination {
+        padding: 100px 30px;
+    }
+    .destination_box {
         width: 100%;
+    }
+    .blog_section {
+        padding: 60px 30px;
+        row-gap: 1.5rem;
+    }
+    .blog_section_box {
+        row-gap: 1.5rem;
+        column-gap: 0;
+    }
+    .blog_box {
+        width: 470px;
+    }
+    .blog_desc {
+        font-size: 0.75rem;
+        color: var(--fourth);
+        margin-bottom: 0.7rem;
+        line-height: 1.0rem;
+    }
+    .contact_section {
+        padding: 60px 30px;
+    }
+    .map_section {
+        width: 70%;
+    }
+    .form_section {
+        width: 80%;
+        padding: 30px 30px 30px 50px;
+        right: 30px;
+    }
+    .footer_section {
+        padding: 60px 30px;
+    }
+    .footer_box {
+        flex-wrap: wrap;
+    }
+    .about_company {
+        width: 100%;
+    }
+    .category {
+        width: 45%;
+    }
+    .destination {
+        width: 45%;
+    }
+    .follow {
+        width: 70%;
+    }
+}
+
+/* Only Min-width 370 and Max-width 551 */
+@media (max-width: 551px ) and (min-width: 370px) {
+    .nav_section {
+        padding: 10px 30px;
+    }
+    .nav_section ul{
+        position: fixed;
+        width: 300px;
+        height: 100vh;
+        background: rgba(31, 31, 31, 0.99);
+        backdrop-filter: blur(7.5px);
+        -webkit-backdrop-filter: blur(7.5px);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        top: 75px;
+        right: -100%;
+        text-align: center;
+        transition: all 0.68s ease-out;
+        z-index: 9999;
+    }
+    .nav_section li{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #toggleIcon{
+        display: block;
+    }
+    .nav_section a{
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+    .nav_section ul.showNavbar{
+        right: 0;
+    }
+    .text_section {
+        font-size: 2rem;
+        line-height: 3.5rem;
+    }
+    .text_section span {
+        font-size: 3.2rem;
+    }
+    .btn_group {
+        justify-content: center;
+        flex-wrap: wrap;
+        column-gap: 0rem;
+        row-gap: 1.3rem;
+    }
+    .about_section {
+        padding: 100px 30px;
+    }
+    .image_section {
+        width: 100%;
+    }
+    .content_section {
+        width: 80%;
+        padding: 30px 30px 30px 50px;
+        right: 30px;
+    }
+    .about_desc {
+        font-size: 0.890rem;
+        line-height: 1.1rem;
+        margin-bottom: 1.0rem;
+    }
+    .about_btn {
+        margin-bottom: 0.2rem;
+    }
+    .travel_categories_section {
+        padding: 100px 30px;
+    }
+    .category_box_section {
+        row-gap: 1.5rem;
+        column-gap: 0;
+    }
+    .category_box {
+        width: 470px;
+    }
+    .cat_img {
+        height: 40vh;
+    }
+    .join_title {
+        font-size: 1.7rem;
+        font-weight: 600;
+        margin-bottom: 1.0rem;
+    }
+    .popular_destination {
+        padding: 100px 30px;
+    }
+    .destination_box {
+        width: 100%;
+    }
+    .blog_section {
+        padding: 60px 30px;
+        row-gap: 1.5rem;
+    }
+    .blog_section_box {
+        row-gap: 1.5rem;
+        column-gap: 0;
+    }
+    .blog_box {
+        width: 470px;
+    }
+    .blog_desc {
+        font-size: 0.75rem;
+        color: var(--fourth);
+        margin-bottom: 0.7rem;
+        line-height: 1.0rem;
+    }
+    .contact_section {
+        padding: 60px 30px;
+    }
+    .map_section {
+        width: 70%;
+    }
+    .form_section {
+        width: 80%;
+        padding: 30px 30px 30px 50px;
+        right: 30px;
+    }
+    .footer_section {
+        padding: 60px 30px;
+    }
+    .footer_box {
+        flex-wrap: wrap;
+    }
+    .about_company {
+        width: 100%;
+    }
+    .category {
+        width: 45%;
+    }
+    .destination {
+        width: 45%;
+    }
+    .follow {
+        width: 70%;
     }
 }
 
