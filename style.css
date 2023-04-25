@@ -686,6 +686,36 @@ li{
     border-radius: 4px !important;
 }
 
+/* Footer Section Styling */
+.footer_section{
+    width: 100%;
+    height: auto;
+    padding: 100px;
+    background: var(--primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.about_company{
+    width: 50%;
+    height: auto;
+    margin-bottom: 1.5rem;
+}
+.about_company .logo_link{
+    display: inline-block;
+    margin-bottom: 0.83rem;
+}
+.company_desc{
+    font-size: 0.978rem;
+    font-weight: 300;
+    color: var(--fourth);
+    line-height: 1.5rem;
+}
+
+
+
 /* Media Query Section */
 /* Only Min-width 975 and Max-width 1024 */
 @media (max-width: 1024px ) and (min-width: 975px) {
