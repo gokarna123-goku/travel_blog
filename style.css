@@ -750,6 +750,16 @@ li{
 .footer_section hr{
     margin: 1.2rem 0;
 }
+.copyright{
+    font-size: 0.89rem;
+    font-weight: 400;
+    color: #4b4b4b;
+}
+.developer{
+    font-size: 0.89rem;
+    font-weight: 600;
+    color: #5d5d5d;
+}
 
 
 /* Media Query Section */
