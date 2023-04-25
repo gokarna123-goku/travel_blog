@@ -959,7 +959,7 @@ li{
 }
 
 /* Only Min-width 370 and Max-width 551 */
-@media (max-width: 551px ) and (min-width: 370px) {
+@media (max-width: 551px ) and (min-width: 330px) {
     .nav_section {
         padding: 10px 30px;
     }
