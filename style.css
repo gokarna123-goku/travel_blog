@@ -988,6 +988,16 @@ li{
         padding: 30px 30px 30px 50px;
         right: 30px;
     }
+    .footer_section{
+        padding: 30px ;
+    }
+    .about_company{
+        width: 100%;
+        height: auto;
+    }
+    .social_link{
+        column-gap: 1.4rem;
+    }
 }
 
 /* Only Min-width 370 and Max-width 551 */
@@ -1116,6 +1126,16 @@ li{
         width: 80%;
         padding: 30px 30px 30px 50px;
         right: 30px;
+    }
+    .footer_section{
+        padding: 30px ;
+    }
+    .about_company{
+        width: 100%;
+        height: auto;
+    }
+    .social_link{
+        column-gap: 1.2rem;
     }
 }
 
