@@ -11,7 +11,7 @@
     <script src="https://code.jquery.com/jquery-3.6.4.js"
         integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
     <!-- AOS Animation css Cdn link -->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> -->
     <!-- Custom css link -->
     <link rel="stylesheet" href="./style.css">
     <title>Travel Blog App</title>
@@ -27,10 +27,10 @@
                 <a href="#" class="logo_link">Travel<i class="fa-solid fa-video"></i></a>
                 <ul>
                     <li><a href="#" class="nav_link active">Home</a></li>
-                    <li><a href="#" class="nav_link">About Us</a></li>
-                    <li><a href="#" class="nav_link">Top Destinations</a></li>
-                    <li><a href="#" class="nav_link">Blogs</a></li>
-                    <li><a href="#" class="nav_link">Contact Us</a></li>
+                    <li><a href="#aboutus" class="nav_link">About Us</a></li>
+                    <li><a href="#destination" class="nav_link">Top Destinations</a></li>
+                    <li><a href="#blog" class="nav_link">Blogs</a></li>
+                    <li><a href="#contactus" class="nav_link">Contact Us</a></li>
                 </ul>
                 <div id="toggleIcon">
                     <i class="fa-solid fa-bars-staggered"></i>
@@ -48,7 +48,7 @@
             </section>
         </div>
         <!-- About Section -->
-        <div class="about_section">
+        <div class="about_section" id="aboutus">
             <div class="image_section" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                 <img src="./img/bg3.jpg" alt="About us Image" class="about_img">
             </div>
@@ -77,7 +77,7 @@
         <!-- Divider -->
         <hr class="divider">
         <!-- Travel Categories Section -->
-        <div class="travel_categories_section">
+        <div class="travel_categories_section" id="category">
             <div class="tag_section tag_center">
                 <h6 class="tag_title">Our Journey</h6>
                 <div class="tag_indicator">
@@ -124,7 +124,7 @@
             </button>
         </div>
         <!-- Suggested Popular Destination -->
-        <div class="popular_destination">
+        <div class="popular_destination" id="destination">
             <div class="tag_section tag_center">
                 <h6 class="tag_title">Destinations</h6>
                 <div class="tag_indicator">
@@ -212,7 +212,7 @@
         <!-- Divider -->
         <hr class="divider">
         <!-- Latest Blogs Section -->
-        <div class="blog_section">
+        <div class="blog_section" id="blog">
             <div class="tag_section tag_center">
                 <h6 class="tag_title">Our Blog</h6>
                 <div class="tag_indicator">
@@ -316,7 +316,7 @@
             </div>
         </div>
         <!-- Contact Us Section -->
-        <div class="contact_section">
+        <div class="contact_section" id="contactus">
             <div class="tag_section tag_center">
                 <h6 class="tag_title">Get in Touch</h6>
                 <div class="tag_indicator">
@@ -377,6 +377,33 @@
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, necessitatibus vel. Deserunt
                     quisquam fuga maiores voluptates provident voluptatibus at, sint aut beatae. Cupiditate, optio est!
                 </div>
+                <div class="social_link">
+                    <div class="link">
+                        <a href="#" class="">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                    </div>
+                    <div class="link">
+                        <a href="#" class="link">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </div>
+                    <div class="link">
+                        <a href="#" class="link">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                    <div class="link">
+                        <a href="#" class="link">
+                            <i class="fa-brands fa-youtube"></i>
+                        </a>
+                    </div>
+                    <div class="link">
+                        <a href="#" class="link">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -386,12 +413,12 @@
     <script src="./main.js"></script>
 
     <!-- AOS JavaScript Cdn link -->
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> -->
 
     <!-- AOS Animation JavaScript Initialized -->
-    <script>
+    <!-- <script>
         AOS.init();
-    </script>
+    </script> -->
 
 </body>
 
