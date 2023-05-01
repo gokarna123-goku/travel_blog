@@ -186,7 +186,7 @@ li{
     display: inline-block;
     font-size: 1.2rem;
     padding: 0 8px;
-    font-weight: 500;
+    font-weight: 400;
     letter-spacing: 0.008rem;
 }
 .nav_section li a{
@@ -198,6 +198,7 @@ li{
 }
 .nav_section li .active{
     color: var(--secondary);
+    font-weight: 500;
 }
 
 /* Toggle Btn Icon */
