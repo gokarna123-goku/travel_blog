@@ -622,7 +622,7 @@ li{
     height: auto;
     border-radius: 4px;
     right: 100px;
-    background: var(--fourth);
+    background: rgb(143, 143, 143);
     display: flex;
     align-items: flex-start;
     justify-content: start;
